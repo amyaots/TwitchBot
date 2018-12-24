@@ -1,4 +1,0 @@
-module CNIOOpenSSL {
-    umbrella "/Users/aleksandrmyaots/Develop/Tests/NexBot/.build/checkouts/swift-nio-ssl.git--5972348623803140307/Sources/CNIOOpenSSL/include"
-    export *
-}

@@ -1,4 +1,0 @@
-module CCryptoOpenSSL {
-    umbrella "/Users/aleksandrmyaots/Develop/Tests/NexBot/.build/checkouts/crypto.git-3855412048952989989/Sources/CCryptoOpenSSL/include"
-    export *
-}
