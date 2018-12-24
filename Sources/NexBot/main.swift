@@ -6,7 +6,5 @@
 //  Copyright © 2018 Aleksandr Myaots. All rights reserved.
 //
 
-import WebSocket
-
 let app = Application()
 app.run()
