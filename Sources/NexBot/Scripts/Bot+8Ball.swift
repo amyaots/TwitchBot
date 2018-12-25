@@ -35,7 +35,7 @@ extension Bot {
     func handleBall(string command: String, nick: String) {
         let regexText = " \\w+"
         let matchStrings = command.matches(for: regexText)
-        guard let text = Bot.answersRus.randomElement(), matchStrings.count > 0 else {
+        guard let text = Bot.answers.randomElement(), matchStrings.count > 0 else {
             return
         }
         send(for: nick, ", " + text)
