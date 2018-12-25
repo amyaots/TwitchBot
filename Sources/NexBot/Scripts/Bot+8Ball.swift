@@ -7,7 +7,7 @@
 
 extension Bot {
     
-    static let answersRus = [
+    static let answers = [
         "reply hazy try again.",
         "ask again later.",
         "better not tell you now.",
