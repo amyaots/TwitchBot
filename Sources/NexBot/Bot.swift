@@ -21,7 +21,6 @@ final class Bot {
             static let otherUser = "@\\w+"
         }
         enum Timers: String {
-            case advertisingEsti
             case updateChatters
         }
     }
