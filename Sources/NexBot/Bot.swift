@@ -76,7 +76,6 @@ final class Bot {
     
     /// disconnect from twith and close connection
     func disconnect() {
-        timers.stopTimer(with: Consts.Timers.advertisingEsti.rawValue)
         timers.stopTimer(with: Consts.Timers.updateChatters.rawValue)
         guard let ws = ws else { return }
         ws.send("\(ChatCommand.part) #\(settings.channel)")
